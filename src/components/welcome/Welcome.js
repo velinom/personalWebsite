@@ -1,0 +1,31 @@
+import React from 'react';
+import './Welcome.css';
+
+export default class Welcome extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { width: props.width };
+  }
+  
+  componentWillUpdate(nextProps, nextState) {
+    if (nextProps.width !== this.props.width) 
+      nextState.width = nextProps.width
+  }
+
+  render() {
+    let Greeting = 'Hello! my name is Mark';
+    if (this.state.width ===  's' || this.state.width === 'xs') Greeting = <p>Hello!<br />My name is Mark</p>;
+
+    return (
+      <div id="welcome-box">
+        <div className={"welcome-text " + this.props.width} id="welcome-greeting">
+          {Greeting}
+          <div className={"welcome-text " + this.props.width} id="welcome-subtitle">
+            I'm passionate about using technology to help the environment
+          </div>
+        </div>
+    </div>
+    );
+  }
+}
