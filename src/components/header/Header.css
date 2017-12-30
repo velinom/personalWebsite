@@ -19,3 +19,18 @@
 .header-jumpButton:hover {
   color: #ededed;
 }
+
+.header-icon {
+  float: right;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+ #header-gitHubIcon {
+  background-image: url(../../images/github.png);
+  background-size: 30px 30px;
+  background-color: #fdfdfd;
+  border-radius: 15px;
+  margin: 10px 30px;
+} 
