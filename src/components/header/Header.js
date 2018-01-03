@@ -34,7 +34,10 @@ export default class Welcome extends React.Component {
         <div className={"header-jumpButton " + this.props.width}>PROJECTS</div>
         <div className={"header-jumpButton " + this.props.width}>CONTACT</div>
 
-        <div id="header-gitHubIcon" className="header-icon" />
+        <a id="header-gitHubIcon" className="header-icon" title="GitHub"
+           href="https://github.com/velinom" />
+        <a id="header-linkedInIcon" className="header-icon" title="LinkedIn"
+           href="https://www.linkedin.com/in/mark-velino-a14144115" />
       </div>
     );
   }

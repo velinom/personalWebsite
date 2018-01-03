@@ -24,13 +24,19 @@
   float: right;
   height: 30px;
   width: 30px;
+  border-radius: 15px;
+  background-color: #fdfdfd;
+  margin: 10px 20px 0px 0px;
   cursor: pointer;
 }
 
- #header-gitHubIcon {
+#header-gitHubIcon {
   background-image: url(../../images/github.png);
   background-size: 30px 30px;
-  background-color: #fdfdfd;
-  border-radius: 15px;
-  margin: 10px 30px;
-} 
+}
+
+#header-linkedInIcon {
+  background-image: url(../../images/linkedin.png);
+  background-size: 36px 36px;
+  background-position: -3px -3px;
+}
