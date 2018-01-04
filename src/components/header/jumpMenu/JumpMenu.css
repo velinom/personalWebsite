@@ -15,9 +15,16 @@
 
 .jumpMenu-dropDownMenu {
   width: 165px;
-  height: 120px;
+  height: 0px;
   margin-left: 10px;
   background-color: #f7f7f7;
+  border: 1px solid #06b703;
+  transition-duration: 250ms;
+  overflow: hidden;
+}
+
+.jumpMenu-dropDownMenu.open {
+  height: 120px;
   border: 1px solid black;
 }
 
