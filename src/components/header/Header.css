@@ -9,17 +9,6 @@
   transition-duration: 600ms;
 }
 
-.header-jumpButton {
-  color: #fdfdfd;
-  float: left;
-  padding: 15px 0px 15px 15px;
-  cursor: pointer;
-}
-
-.header-jumpButton:hover {
-  color: #ededed;
-}
-
 .header-icon {
   float: right;
   height: 30px;

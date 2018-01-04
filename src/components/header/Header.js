@@ -1,7 +1,9 @@
 import React from 'react';
+import JumpButtons from './jumpButtons/JumpButtons';
+import JumpMenu from './jumpMenu/JumpMenu';
 import './Header.css';
 
-export default class Welcome extends React.Component {
+export default class Header extends React.Component {
   constructor(props) {
     super(props);
 
@@ -27,12 +29,12 @@ export default class Welcome extends React.Component {
   }
 
   render() {
+    let JumpToLinks = <JumpButtons width={this.state.width} />;
+    if (this.state.width !== 'xs2') JumpToLinks = <JumpMenu width={this.state.width} />;
+
     return (
-      <div className={"header-box " + this.props.width} style={this.state.hidden ? { top: '-50px' } : undefined}>
-        <div className={"header-jumpButton " + this.props.width}>SKILLS</div>
-        <div className={"header-jumpButton " + this.props.width}>EXPERIENCE</div>
-        <div className={"header-jumpButton " + this.props.width}>PROJECTS</div>
-        <div className={"header-jumpButton " + this.props.width}>CONTACT</div>
+      <div className={"header-box " + this.state.width} style={this.state.hidden ? { top: '-50px' } : undefined}>
+        {JumpToLinks}
 
         <a id="header-gitHubIcon" className="header-icon" title="GitHub"
            href="https://github.com/velinom" />
