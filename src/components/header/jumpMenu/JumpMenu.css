@@ -1,0 +1,34 @@
+.header-jumpButtonMenu {
+  position: absolute;
+  width: 200px;
+}
+
+.material-icons.menu {
+  color: #f7f7f7;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.material-icons.menu:hover {
+  color: #ededed;
+}
+
+.jumpMenu-dropDownMenu {
+  width: 165px;
+  height: 120px;
+  margin-left: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid black;
+}
+
+.jumpMenu-menuButton {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.jumpMenu-menuButton:hover {
+  background-color: #06b703;
+  color: #f7f7f7;
+}
