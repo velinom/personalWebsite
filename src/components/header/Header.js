@@ -37,9 +37,9 @@ export default class Header extends React.Component {
         {JumpToLinks}
 
         <a id="header-gitHubIcon" className="header-icon" title="GitHub"
-           href="https://github.com/velinom" />
+           href="https://github.com/velinom" target="blank"/>
         <a id="header-linkedInIcon" className="header-icon" title="LinkedIn"
-           href="https://www.linkedin.com/in/mark-velino-a14144115" />
+           href="https://www.linkedin.com/in/mark-velino-a14144115" target="blank" />
       </div>
     );
   }

@@ -19,6 +19,11 @@
   cursor: pointer;
 }
 
+.header-icon:hover {
+  background-color: #ededed;
+}
+
+
 #header-gitHubIcon {
   background-image: url(../../images/github.png);
   background-size: 30px 30px;

@@ -18,10 +18,10 @@ export default class Welcome extends React.Component {
     if (this.state.width ===  's' || this.state.width === 'xs') Greeting = <p>Hello!<br />My name is Mark</p>;
 
     return (
-      <div id="welcome-box">
-        <div className={"welcome-text " + this.props.width} id="welcome-greeting">
+      <div className={"welcome-box " + this.state.width}>
+        <div className={"welcome-text " + this.state.width} id="welcome-greeting">
           {Greeting}
-          <div className={"welcome-text " + this.props.width} id="welcome-subtitle">
+          <div className={"welcome-text " + this.state.width} id="welcome-subtitle">
             I'm passionate about using technology to help the environment
           </div>
         </div>
