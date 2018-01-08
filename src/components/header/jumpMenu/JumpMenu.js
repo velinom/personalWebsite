@@ -8,6 +8,7 @@ export default class JumpMenu extends React.Component {
     this.state = { width: props.width };
 
     this.onMenuClick = this.onMenuClick.bind(this);
+    this.onMenuButtonClick = this.onMenuButtonClick.bind(this);
   }
   
   componentWillUpdate(nextProps, nextState) {
@@ -19,12 +20,16 @@ export default class JumpMenu extends React.Component {
     this.setState({ menuOpen: !this.state.menuOpen });
   }
 
+  onMenuButtonClick(thing) {
+
+  }
+
   render() {
     return (
       <div className={"header-jumpButtonMenu " + this.state.width}>
         <i className="material-icons menu" onClick={this.onMenuClick}>menu</i>
         <div className={"jumpMenu-dropDownMenu " + (this.state.menuOpen ? "open" : "") }>
-          <div className="jumpMenu-menuButton">SKILLS</div>
+          <div className="jumpMenu-menuButton" onClick={this.onMenuButtonClick}>SKILLS</div>
           <div className="jumpMenu-menuButton">EXPERIENCE</div>
           <div className="jumpMenu-menuButton">PROJECTS</div>
           <div className="jumpMenu-menuButton">CONTACT</div>
