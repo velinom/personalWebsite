@@ -18,7 +18,7 @@
   height: 0px;
   margin-left: 10px;
   background-color: #f7f7f7;
-  border: 1px solid #06b703;
+  border: 1px solid #778c97;
   transition-duration: 250ms;
   overflow: hidden;
 }
@@ -36,6 +36,6 @@
 }
 
 .jumpMenu-menuButton:hover {
-  background-color: #06b703;
+  background-color: #778c97;
   color: #f7f7f7;
 }

@@ -14,7 +14,7 @@ export default class Welcome extends React.Component {
   }
 
   render() {
-    let Greeting = 'Hello! my name is Mark';
+    let Greeting = 'Hello! My name is Mark';
     if (this.state.width ===  's' || this.state.width === 'xs') Greeting = <p>Hello!<br />My name is Mark</p>;
 
     return (
