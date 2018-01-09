@@ -14,7 +14,7 @@ export default class Website extends React.Component {
         <Pictures />
         <Welcome />
         <About />
-        <div style={{ height: '1000px', width: '100%', backgroundColor: 'grey' }} />
+        <div style={{ height: '1000px', width: '100%', backgroundColor: '#778c97' }} />
       </Responsive>
     );
   }
