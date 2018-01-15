@@ -23,9 +23,16 @@
 
 .about-content {
   position: relative;
-  width: 400px;
+  width: calc(90% - 40px);
   top: 60px;
   left: 10%;
-  font-size: 35px;
   color: #f7f7f7;
+}
+
+.about-title {
+  font-size: 35px;
+}
+
+.about-discription {
+  font-size: 25 px;
 }
