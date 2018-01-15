@@ -10,11 +10,11 @@ export default class Header extends React.Component {
     this.scrollTop = 0;
     this.state = { width: props.width };
 
-    this.handleScroll = this.handleScroll.bind(this);
+    this.onScroll = this.onScroll.bind(this);
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener('scroll', this.onScroll);
   }
   
   componentWillUpdate(nextProps, nextState) {
@@ -22,7 +22,7 @@ export default class Header extends React.Component {
       nextState.width = nextProps.width
   }
 
-  handleScroll(event) {
+  onScroll(event) {
     const newScrollTop = event.target.scrollingElement.scrollTop;
     this.setState({ hidden: newScrollTop > this.scrollTop });
     this.scrollTop = newScrollTop;

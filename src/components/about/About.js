@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import './About.css';
 
 export default class About extends React.Component {
@@ -8,6 +9,13 @@ export default class About extends React.Component {
     this.state = {
       width: props.width
     };
+
+    this.onScroll = this.onScroll.bind(this);
+  }
+
+  componentDidMount() {
+    this.ref = ReactDOM.findDOMNode(this);
+    window.addEventListener('scroll', this.onScroll);
   }
 
   componentWillUpdate(nextProps, nextState) {
@@ -15,10 +23,22 @@ export default class About extends React.Component {
       nextState.width = nextProps.width
   }
 
+  onScroll(event) {
+    const scrollTop = event.target.scrollingElement.scrollTop;
+    const ammountOnScreen = scrollTop + window.innerHeight - this.ref.offsetTop;
+    if (ammountOnScreen >= 0) {
+      const percentY = 0.3 -(ammountOnScreen * 0.3 / (this.ref.offsetHeight + window.innerHeight));
+      console.log(percentY);
+      const backgroundPosition = 'center ' + (percentY * 100) + '%';
+      this.setState({ backgroundPosition })
+    }
+  }
+
   render() {
     return (
       <div className={"about-box " + this.state.width}>
-        <div className={"about-background " + this.state.width} />
+        <div className={"about-background " + this.state.width} 
+             style={{ backgroundPosition: this.state.backgroundPosition}} />
         <div className="about-backgroundMask" />
         <div className={"about-content " + this.state.width}>
           <div className={"about-title " + this.state.width}>About</div>
