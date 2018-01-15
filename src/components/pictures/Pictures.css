@@ -2,6 +2,7 @@
   width: 100%;
   background: linear-gradient(#718792, #b7c7d2);
 }
+.picture-box.xl { height: 800px }
 .picture-box.l { height: 600px; }
 .picture-box.m { height: 350px; }
 .picture-box.s { height: 250px; }
@@ -20,6 +21,7 @@
   transition-property: opacity;
   transition-duration: 500ms;
 }
+.picture-quote.xl { width: calc(100% - 1100px); top: 200px; padding-left: 40px; font-size: 40px; }
 .picture-quote.l { width: calc(100% - 860px); top: 200px; padding-left: 30px; font-size: 30px; }
 .picture-quote.m { width: calc(100% - 517px); top: 90px; padding-left: 20px; font-size: 22px; }
 .picture-quote.s { width: calc(100% - 383px); top: 60px; padding-left: 20px; font-size: 16px; }
@@ -41,6 +43,7 @@
   right: 0px;
   background-image: url(../../images/iceland0.jpg);
 }
+#picture-iceland.xl { height: 800px; width: 1040px }
 #picture-iceland.l { height: 600px; width: 800px; }
 #picture-iceland.m { height: 350px; width: 467px; }
 #picture-iceland.s { height: 250px; width: 333px; }
