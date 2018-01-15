@@ -30,11 +30,16 @@
   left: 10%;
   color: #f7f7f7;
 }
+.about-content.m { top: 40px }
+.about-content.s { top: 35px }
+.about-content.xs { top: 20px }
 
-.about-title {
-  font-size: 35px;
-}
+.about-title { font-size: 35px; }
+.about-title.s { font-size: 28px; }
+.about-title.xs { font-size: 25px; }
 
-.about-discription {
-  font-size: 25px;
-}
+.about-discription.xl { font-size: 28px; }
+.about-discription.l { font-size: 25px; }
+.about-discription.m { font-size: 20px; }
+.about-discription.s { font-size: 18px; }
+.about-discription.xs { font-size: 15px; }
