@@ -27,8 +27,7 @@ export default class About extends React.Component {
     const scrollTop = event.target.scrollingElement.scrollTop;
     const ammountOnScreen = scrollTop + window.innerHeight - this.ref.offsetTop;
     if (ammountOnScreen >= 0) {
-      const percentY = 0.3 -(ammountOnScreen * 0.3 / (this.ref.offsetHeight + window.innerHeight));
-      console.log(percentY);
+      const percentY = 0.5 -(ammountOnScreen * 0.5 / (this.ref.offsetHeight + window.innerHeight));
       const backgroundPosition = 'center ' + (percentY * 100) + '%';
       this.setState({ backgroundPosition })
     }
@@ -36,8 +35,8 @@ export default class About extends React.Component {
 
   render() {
     return (
-      <div className={"about-box " + this.state.width}>
-        <div className={"about-background " + this.state.width} 
+      <div className="about-box">
+        <div className="about-background" 
              style={{ backgroundPosition: this.state.backgroundPosition}} />
         <div className="about-backgroundMask" />
         <div className={"about-content " + this.state.width}>

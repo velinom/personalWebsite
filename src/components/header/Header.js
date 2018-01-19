@@ -33,7 +33,7 @@ export default class Header extends React.Component {
     if (this.state.width === 'xs') JumpToLinks = <JumpMenu width={this.state.width} />;
 
     return (
-      <div className={"header-box " + this.state.width} style={this.state.hidden ? { top: '-50px' } : undefined}>
+      <div className="header-box" style={this.state.hidden ? { top: '-50px' } : undefined}>
         {JumpToLinks}
 
         <a id="header-gitHubIcon" className="header-icon" title="GitHub"
