@@ -29,9 +29,9 @@ export default class JumpMenu extends React.Component {
       <div className={"header-jumpButtonMenu " + this.state.width}>
         <i className="material-icons menu" onClick={this.onMenuClick}>menu</i>
         <div className={"jumpMenu-dropDownMenu " + (this.state.menuOpen ? "open" : "") }>
-          <div className="jumpMenu-menuButton" onClick={this.onMenuButtonClick}>SKILLS</div>
+          <div className="jumpMenu-menuButton" onClick={this.onMenuButtonClick}>ABOUT</div>
+          <div className="jumpMenu-menuButton">SKILLS</div>
           <div className="jumpMenu-menuButton">EXPERIENCE</div>
-          <div className="jumpMenu-menuButton">PROJECTS</div>
           <div className="jumpMenu-menuButton">CONTACT</div>
         </div>
       </div>

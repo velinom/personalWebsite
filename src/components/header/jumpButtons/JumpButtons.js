@@ -16,9 +16,9 @@ export default class JumpButtons extends React.Component {
   render() {
     return (
       <div className={"header-jumpButtonBox " + this.state.width}>
+        <div className={"header-jumpButton " + this.state.width}>ABOUT</div>
         <div className={"header-jumpButton " + this.state.width}>SKILLS</div>
         <div className={"header-jumpButton " + this.state.width}>EXPERIENCE</div>
-        <div className={"header-jumpButton " + this.state.width}>PROJECTS</div>
         <div className={"header-jumpButton " + this.state.width}>CONTACT</div>
       </div>
     );
