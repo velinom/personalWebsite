@@ -49,7 +49,7 @@ export default class About extends React.Component {
           </p>
           <p className={"about-discription " + this.state.width}>
             Thanks to Northeastern’s Co-op program, I have gained valuable, real-life experience as both a
-          laboratory technician at Liquiglide and a software developer at Power Advocate. Having worked in
+          laboratory technician at LiquiGlide and a software developer at Power Advocate. Having worked in
           each of my fields of study in the past, I hope to combine my passions for my next position from
           July to December 2018.
           </p>
