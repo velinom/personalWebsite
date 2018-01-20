@@ -22,7 +22,10 @@ export default class Experience extends React.Component {
         <div className={"experience-background " + this.state.width} 
              style={{ backgroundPosition: this.state.backgroundPosition}} />
         <div className="experience-backgroundMask" />
-        <div className={""}>
+        <div className={"experience-content " + this.state.width}>
+          <div className={"experience-title " + this.state.width}>
+            Experience
+          </div>
         </div>
       </div>
     );
