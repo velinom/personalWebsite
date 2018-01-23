@@ -18,6 +18,7 @@ export default class Website extends React.Component {
         <About />
         <Skills />
         <Experience />
+        <div style={{ width: '100%', height: '600px', backgroundColor: 'grey' }} />
       </Responsive>
     );
   }
