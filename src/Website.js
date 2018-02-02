@@ -13,13 +13,14 @@ export default class Website extends React.Component {
     return (
       <Responsive>
         <Header />
-        <Pictures />
         <Welcome />
+        <Pictures />
         <About />
         <Skills />
         <Experience />
-        <div style={{ width: '100%', height: '600px', backgroundColor: 'grey' }} />
       </Responsive>
     );
   }
 }
+
+//<div style={{ width: '100%', height: '600px', backgroundColor: 'grey' }} />

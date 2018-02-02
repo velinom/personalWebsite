@@ -1,9 +1,8 @@
 .welcome-box {
   width: 100%;
-  height: 350px;
+  height: calc(100vh + 20px);
   background-color: #d6e1ed;
 }
-.welcome-box.xs { height: 270px; } 
 
 .welcome-text {
   color: #332d4c;
@@ -15,14 +14,14 @@
 
 #welcome-greeting {
   position: relative;
-  top: 80px;
+  top: 40%;
   font-size: 52px;
 }
 #welcome-greeting.xl { left: 15%; width: 85%; font-size: 68px; }
 #welcome-greeting.l { left: 10%; width: 90%; font-size: 60px; }
 #welcome-greeting.m { left: 10%; width: 90%; font-size: 52px; }
-#welcome-greeting.s { left: 10%; width: 90%; font-size: 48px; top: 40px; }
-#welcome-greeting.xs { left: 20px; width: calc(100% - 40px); font-size: 36px; top: 30px; }
+#welcome-greeting.s { left: 10%; width: 90%; font-size: 48px; top: 25%; }
+#welcome-greeting.xs { left: 10%; width: 90%; font-size: 36px; top: 25%}
 
 #welcome-subtitle {
   padding-top: 15px;
@@ -32,4 +31,4 @@
 #welcome-subtitle.l { margin-left: 60px; width: calc(100% - 90px); font-size: 38px; }
 #welcome-subtitle.m { margin-left: 60px; width: calc(100% - 90px); font-size: 34px; }
 #welcome-subtitle.s { margin-left: 40px; width: calc(100% - 70px); font-size: 34px; }
-#welcome-subtitle.xs { margin-left: 20px; width: calc(100% - 50px); font-size: 26px; }
+#welcome-subtitle.xs { margin-left: 20px; width: calc(100% - 50px); font-size: 34px; }

@@ -43,11 +43,11 @@ export default class Pictures extends React.Component {
   render() {
     return (
       <div className={"picture-box " + this.state.width}>
+        <div className={"picture " + this.state.width} id="picture-iceland" />
         <div className={"picture-quote " + this.state.width + " " + (this.state.changing ? "changing" : "")}>
           <i>{this.quotes[this.state.index].quote}</i>
           <div className="picure-author">{"- " + this.quotes[this.state.index].by}</div>
         </div>
-        <div className={"picture " + this.state.width} id="picture-iceland" />
       </div>
     );
   }

@@ -1,6 +1,6 @@
 .picture-box {
   width: 100%;
-  background: linear-gradient(#718792, #b7c7d2);
+  background: linear-gradient(#bdcbd6, #778c97);
 }
 .picture-box.xl { height: 800px }
 .picture-box.l { height: 600px; }
@@ -38,9 +38,7 @@
 }
 
 #picture-iceland {
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  float: right;
   background-image: url(../../images/iceland0.jpg);
 }
 #picture-iceland.xl { height: 800px; width: 1040px }

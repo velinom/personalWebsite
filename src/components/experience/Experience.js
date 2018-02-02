@@ -39,12 +39,29 @@ export default class Experience extends React.Component {
         <div className={"experience-background " + this.state.width} 
              style={{ backgroundPosition: this.state.backgroundPosition}} />
         <div className="experience-backgroundMask" />
-        <div className={"experience-content " + this.state.width}>
-          <div className={"experience-title " + this.state.width}>
+        <div className={"experience-title " + this.state.width}>
             Experience
+        </div>
+        <div className={"experience-content " + this.state.width}>
+          <div className={"experience-item " + this.state.width}>
+            <div className={"experience-header " + this.state.width}>
+              Power Advocate
+            </div>
+            <div className={"experience-discription " + this.state.width}>
+              Developed a new version of an enterprise web application from the ground up. I worked on an
+              efficient 4 person Scrum team to build a new database and backend structure using Oracle Database,
+              SQL, and Java. Created a sleak front-end for the application using React.js, Node.js, and JavaScript
+            </div>
           </div>
           <div className={"experience-item " + this.state.width}>
-
+            <div className={"experience-header " + this.state.width}>
+              LiquiGlide
+            </div>
+            <div className={"experience-discription " + this.state.width}>
+              Researched and Developed a new method of lining the insides of paint tanks to increase 
+              efficiency by 4%.  Analyzed data from over 200 experiments that I carried out myself
+              to identify key trends and assess financial value. 
+            </div>
           </div>
         </div>
       </div>
