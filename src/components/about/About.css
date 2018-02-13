@@ -3,6 +3,7 @@
   width: 100%;
   height: 520px;
 }
+.about-box.xs { height: 715px; }
 
 .about-background {
   position: absolute;
@@ -13,14 +14,16 @@
   background-position: center 30%;
   filter: blur(3px);
 }
+.about-background.xs { height: 715px; }
 
-.about-backgroundMask{
+.about-backgroundMask {
   position: absolute;
   width: 100%;
   height: 520px;
   background-color: black;
   opacity: 0.27;
 }
+.about-backgroundMask.xs { height: 715px; }
 
 .about-content {
   position: relative;
@@ -34,11 +37,9 @@
 .about-content.xs { top: 20px }
 
 .about-title { font-size: 35px; }
-.about-title.s { font-size: 28px; }
-.about-title.xs { font-size: 25px; }
 
 .about-discription.xl { font-size: 28px; }
 .about-discription.l { font-size: 25px; }
 .about-discription.m { font-size: 20px; }
 .about-discription.s { font-size: 18px; }
-.about-discription.xs { font-size: 15px; }
+.about-discription.xs { font-size: 18px; }
