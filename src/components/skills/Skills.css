@@ -22,7 +22,7 @@
   left: 10%;
   color: #f7f7f7;
 }
-.skills-content.xs { top: 20px; }
+.skills-content.xs { top: 20px; left: 25%; }
 
 .skills-header {
   height: 30px;
@@ -42,7 +42,7 @@
 }
 .skills-list.l { font-size: 22px; padding-right: 16%; }
 .skills-list.m { font-size: 17px; padding-right: 11%; }
-.skills-list.s { font-size: 15px; padding-right: 10%; }
+.skills-list.s { font-size: 15px; padding-right: 8%; }
 .skills-list.xs { font-size: 20px; padding-right: 30%; }
 
 .skills-list > p {

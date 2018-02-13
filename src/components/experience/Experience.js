@@ -38,7 +38,7 @@ export default class Experience extends React.Component {
       <div className={"experience-box " + this.state.width}>
         <div className={"experience-background " + this.state.width} 
              style={{ backgroundPosition: this.state.backgroundPosition}} />
-        <div className="experience-backgroundMask" />
+        <div className={"experience-backgroundMask " + this.state.width} />
         <div className={"experience-title " + this.state.width}>
             Experience
         </div>
@@ -49,8 +49,9 @@ export default class Experience extends React.Component {
             </div>
             <div className={"experience-discription " + this.state.width}>
               Developed a new version of an enterprise web application from the ground up. I worked on an
-              efficient 4 person Scrum team to build a new database and backend structure using Oracle Database,
-              SQL, and Java. Created a sleak front-end for the application using React.js, Node.js, and JavaScript
+              efficient 4 person <u>Scrum</u> team to build a new database and backend structure 
+              using <u>Oracle Database</u>, <u>SQL</u>, and <u>Java</u>. Created a sleak front-end for the 
+              application using <u>React.js</u>, <u>Node.js</u>, and <u>JavaScript</u>.
             </div>
           </div>
           <div className={"experience-item " + this.state.width}>
@@ -58,8 +59,8 @@ export default class Experience extends React.Component {
               LiquiGlide
             </div>
             <div className={"experience-discription " + this.state.width}>
-              Researched and Developed a new method of lining the insides of paint tanks to increase 
-              efficiency by 4%.  Analyzed data from over 200 experiments that I carried out myself
+              Researched and Developed a new method of lining the insides of paint tanks to <u>increase 
+              efficiency</u> by 4%.  Analyzed data from over 200 experiments that I carried out myself
               to identify key trends and assess financial value. 
             </div>
           </div>
@@ -74,8 +75,18 @@ export default class Experience extends React.Component {
             </div>
             <div className={"experience-discription " + this.state.width}>
               Developed a Twitter bot during the holiday season that analyzed tweets to determine if
-              more people were tweeting about the holidays or about Christmas. Used the Twitter API, Node.js, 
-              Heroku, and JavaScript to colect data, analyze it, and report out every 12 hours. 
+              more people were tweeting about the holidays or about Christmas. Used the <u>Twitter API</u>
+              , <u>Node.js</u>, <u>Heroku</u>, and <u>JavaScript</u> to colect data, analyze it, 
+              and report out every 12 hours. 
+            </div>
+          </div>
+          <div className={"experience-item " + this.state.width}>
+            <div className={"experience-header " + this.state.width}>
+              Project Karman 
+            </div>
+            <div className={"experience-discription " + this.state.width}>
+              Work on a small <u>avionics</u> team with the goal of launching a rocket to the Karman Line (100 km). 
+              Write embedded dirivers in <u>C</u> and perfrom QA testing on integrated circuit boards. 
             </div>
           </div>
         </div>

@@ -1,25 +1,32 @@
 .experience-box {
   width: 100%;
-  height: 900px;
+  height: 1080px;
 }
-
+.experience-box.l { height: 1000px; }
+.experience-box.xs { height: 1300px; }
+ 
 .experience-background {
   position: absolute;
   width: 100%;
-  height: 900px;
+  height: 1080px;
   background-image: url(../../images/iceland2.JPG);
   background-size: cover;
   background-position: center 30%;
   filter: blur(3px);
 }
+.experience-background.l { height: 1000px; }
+.experience-background.xs { height: 1300px; }
 
 .experience-backgroundMask {
   position: absolute;
   width: 100%;
-  height: 900px;
+  height: 1080px;
   background-color: black;
   opacity: 0.15;
 }
+.experience-backgroundMask.l { height: 1000px; }
+.experience-backgroundMask.s { opacity: 0.25; }
+.experience-backgroundMask.xs { height: 1300px; opacity: 0.25; }
 
 .experience-content {
   position: relative;
@@ -30,6 +37,8 @@
   padding-bottom: 60px;
   color: #f7f7f7;
 }
+.experience-content.s { top: 30px; }
+.experience-content.xs { top: 20px; padding-bottom: 30px; }
 
 .experience-title {
   position: relative;
@@ -39,6 +48,8 @@
   color: #f7f7f7;
   font-size: 35px;
 }
+.experience-title.s { top: 20px; }
+.experience-title.xs { top: 20px; }
 
 .experience-item {
   width: 80%;
@@ -50,8 +61,14 @@
   font-size: 28px;
   border-bottom: solid #f7f7f7 
 }
+.experience-header.m { font-size: 23px; }
+.experience-header.s { font-size: 21px; }
+.experience-header.xs { font-size: 20px; }
 
 .experience-discription {
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 23px;
 }
+.experience-discription.m { font-size: 20px; }
+.experience-discription.s { font-size: 18px; }
+.experience-discription.xs { font-size: 18px; }
