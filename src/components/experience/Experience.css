@@ -26,7 +26,8 @@
   top: 60px;
   left: 10%;
   width: 90%;
-  height: calc(100% - 100px);
+  height: max-content;
+  padding-bottom: 60px;
   color: #f7f7f7;
 }
 

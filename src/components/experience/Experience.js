@@ -64,6 +64,21 @@ export default class Experience extends React.Component {
             </div>
           </div>
         </div>
+        <div className={"experience-title " + this.state.width}>
+            Projects
+        </div>
+        <div className={"experience-content " + this.state.width}>
+          <div className={"experience-item " + this.state.width}>
+            <div className={"experience-header " + this.state.width}>
+              Twiter Bot
+            </div>
+            <div className={"experience-discription " + this.state.width}>
+              Developed a Twitter bot during the holiday season that analyzed tweets to determine if
+              more people were tweeting about the holidays or about Christmas. Used the Twitter API, Node.js, 
+              Heroku, and JavaScript to colect data, analyze it, and report out every 12 hours. 
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
