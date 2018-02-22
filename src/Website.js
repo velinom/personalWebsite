@@ -6,6 +6,7 @@ import Welcome from './components/welcome/Welcome';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Experience from './components/experience/Experience';
+import Contact from './components/contact/Contact';
 import './Website.css';
 
 export default class Website extends React.Component {
@@ -18,9 +19,8 @@ export default class Website extends React.Component {
         <About />
         <Skills />
         <Experience />
+        <Contact />
       </Responsive>
     );
   }
 }
-
-//<div style={{ width: '100%', height: '600px', backgroundColor: 'grey' }} />

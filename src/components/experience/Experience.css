@@ -40,6 +40,13 @@
 .experience-content.s { top: 30px; }
 .experience-content.xs { top: 20px; padding-bottom: 30px; }
 
+.experience-content a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.experience-content a:hover { color: #dcdcdc; }
+
 .experience-title {
   position: relative;
   left: 10%;
