@@ -9,13 +9,6 @@ export default class Experience extends React.Component {
     this.state = {
       width: props.width
     };
-
-    this.onScroll = this.onScroll.bind(this);
-  }
-
-  componentDidMount() {
-    this.ref = ReactDOM.findDOMNode(this);
-    window.addEventListener('scroll', this.onScroll);
   }
 
   componentWillUpdate(nextProps, nextState) {
@@ -23,21 +16,10 @@ export default class Experience extends React.Component {
       nextState.width = nextProps.width
   }
 
-  onScroll(event) {
-    const scrollTop = event.target.scrollingElement.scrollTop;
-    const ammountOnScreen = scrollTop + window.innerHeight - this.ref.offsetTop;
-    if (ammountOnScreen >= 0) {
-      const percentY = 0.5 -(ammountOnScreen * 0.5 / (this.ref.offsetHeight + window.innerHeight));
-      const backgroundPosition = 'center ' + (percentY * 100) + '%';
-      this.setState({ backgroundPosition })
-    }
-  }
-
   render() {
     return (
       <div className={"experience-box " + this.state.width}>
-        <div className={"experience-background " + this.state.width} 
-             style={{ backgroundPosition: this.state.backgroundPosition}} />
+        <div className={"experience-background " + this.state.width} />
         <div className={"experience-backgroundMask " + this.state.width} />
         <div className={"experience-title " + this.state.width}>
             Experience

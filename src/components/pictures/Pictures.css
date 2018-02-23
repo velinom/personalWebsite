@@ -25,7 +25,7 @@
 .picture-quote.l { width: calc(100% - 860px); top: 200px; padding-left: 30px; font-size: 30px; }
 .picture-quote.m { width: calc(100% - 517px); top: 90px; padding-left: 20px; font-size: 22px; }
 .picture-quote.s { width: calc(100% - 383px); top: 60px; padding-left: 20px; font-size: 16px; }
-.picture-quote.xs { width: calc(100% - 60px); top: 360px; padding-left: 30px; font-size: 19px; }
+.picture-quote.xs { width: calc(100% - 60px); top: 20px; padding-left: 30px; font-size: 19px; }
 
 .picure-author {
   position: absolute;

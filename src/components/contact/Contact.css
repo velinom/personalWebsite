@@ -38,6 +38,8 @@
   margin-bottom: 20px; 
   transition-duration: 300ms;
 }
+.contact-link.s { width: 75%; }
+.contact-link.xs { width: 80%; }
 
 .contact-link:hover {
   background-color: #1C4358;
