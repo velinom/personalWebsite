@@ -5,21 +5,28 @@ export default class JumpButtons extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { width: props.width };
+    this.onMenuButtonClick = this.onMenuButtonClick.bind(this);
   }
-  
-  componentWillUpdate(nextProps, nextState) {
-    if (nextProps.width !== this.props.width) 
-      nextState.width = nextProps.width
+
+  onMenuButtonClick(section) {
+    window.scrollTo(0, document.getElementById(section).offsetTop); 
   }
 
   render() {
     return (
-      <div className={"header-jumpButtonBox " + this.state.width}>
-        <div className="header-jumpButton">ABOUT</div>
-        <div className="header-jumpButton">SKILLS</div>
-        <div className="header-jumpButton">EXPERIENCE</div>
-        <div className="header-jumpButton">CONTACT</div>
+      <div className="header-jumpButtonBox">
+        <div className="header-jumpButton" onClick={() => this.onMenuButtonClick('about')}>
+          ABOUT
+        </div>
+        <div className="header-jumpButton" onClick={() => this.onMenuButtonClick('skills')}>
+          SKILLS
+        </div>
+        <div className="header-jumpButton" onClick={() => this.onMenuButtonClick('experience')}>
+          EXPERIENCE
+        </div>
+        <div className="header-jumpButton" onClick={() => this.onMenuButtonClick('contact')}>
+          CONTACT
+        </div>
       </div>
     );
   }

@@ -17,7 +17,7 @@ export default class Skills extends React.Component {
 
   render() {
     return (
-      <div className={"skills-box " + this.state.width} >
+      <div className={"skills-box " + this.state.width} id="skills" >
         <div className={"skills-title " + this.state.width}>Skills</div>
         <div className={"skills-content " + this.state.width}>
           <div id="skills-languages" className={"skills-list " + this.state.width}>

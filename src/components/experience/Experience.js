@@ -18,7 +18,7 @@ export default class Experience extends React.Component {
 
   render() {
     return (
-      <div className={"experience-box " + this.state.width}>
+      <div className={"experience-box " + this.state.width} id="experience">
         <div className={"experience-background " + this.state.width} />
         <div className={"experience-backgroundMask " + this.state.width} />
         <div className={"experience-title " + this.state.width}>

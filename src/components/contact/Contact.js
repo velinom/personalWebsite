@@ -17,7 +17,7 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div className={"contact-box " + this.state.width} >
+      <div className={"contact-box " + this.state.width} id="contact">
         <div className={"contact-title " + this.state.width}>Contact</div>
         <div className={"contact-content"}>
           <a href="mailto:mark.velino@gmail.com" target="_blank">
