@@ -4,6 +4,7 @@
   background-color: #778c97;
 }
 .skills-box.xs { height: 900px; }
+.skills-box.xxs { height: 900px; }
 
 .skills-title {
   position: relative;
@@ -14,6 +15,7 @@
   font-size: 35px;
 }
 .skills-title.xs { top: 30px; }
+.skills-title.xxs { top: 30px; }
 
 .skills-content {
   position: relative;
@@ -23,7 +25,8 @@
   left: 10%;
   color: #f7f7f7;
 }
-.skills-content.xs { top: 20px; left: 25%; width: 70%; } 
+.skills-content.xs { top: 20px; left: 25%; width: 70%; }
+.skills-content.xxs { top: 20px; left: 25%; width: 70%; } 
 
 .skills-header {
   height: 30px;
@@ -33,6 +36,7 @@
 .skills-header.m { font-size: 22px; }
 .skills-header.s { font-size: 20px; }
 .skills-header.xs { font-size: 23px; }
+.skills-header.xxs { font-size: 23px; }
 
 .skills-list {
   position: relative;
@@ -45,6 +49,7 @@
 .skills-list.m { font-size: 17px; padding-right: 11%; }
 .skills-list.s { font-size: 15px; padding-right: 8%; }
 .skills-list.xs { font-size: 20px; padding-right: 30%; }
+.skills-list.xxs { font-size: 20px; padding-right: 30%; }
 
 .skills-list > p {
   margin: 8px 0px;

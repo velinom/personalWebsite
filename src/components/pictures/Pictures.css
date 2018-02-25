@@ -7,6 +7,7 @@
 .picture-box.m { height: 350px; }
 .picture-box.s { height: 250px; }
 .picture-box.xs { height: 530px; }
+.picture-box.xxs { height: 530px; }
 
 .picture {
   background-repeat: no-repeat;
@@ -26,6 +27,7 @@
 .picture-quote.m { width: calc(100% - 517px); top: 90px; padding-left: 20px; font-size: 22px; }
 .picture-quote.s { width: calc(100% - 383px); top: 60px; padding-left: 20px; font-size: 16px; }
 .picture-quote.xs { width: calc(100% - 60px); top: 20px; padding-left: 30px; font-size: 19px; }
+.picture-quote.xxs { width: calc(100% - 60px); top: 20px; padding-left: 30px; font-size: 19px; }
 
 .picure-author {
   position: absolute;
@@ -46,3 +48,4 @@
 #picture-iceland.m { height: 350px; width: 467px; }
 #picture-iceland.s { height: 250px; width: 333px; }
 #picture-iceland.xs { height: 350px; width: 100%; }
+#picture-iceland.xxs { height: 350px; width: 100%; }

@@ -9,7 +9,8 @@ export default class Resopnsive extends React.Component {
       1200: 'l',
       750: 'm',
       550: 's',
-      0: 'xs'
+      355: 'xs',
+      0: 'xxs'
     }
 
     const width = Math.max(...Object.keys(this.breakpoints).filter(key => key <= window.innerWidth));

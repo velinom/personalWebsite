@@ -22,6 +22,7 @@
 #welcome-greeting.m { left: 10%; width: 90%; font-size: 52px; }
 #welcome-greeting.s { left: 10%; width: 90%; font-size: 48px; top: 25%; }
 #welcome-greeting.xs { left: 10%; width: 90%; font-size: 36px; top: 25%}
+#welcome-greeting.xxs { left: 10%; width: 90%; font-size: 32px; top: 25%}
 
 #welcome-subtitle {
   padding-top: 15px;
@@ -32,3 +33,4 @@
 #welcome-subtitle.m { margin-left: 60px; width: calc(100% - 90px); font-size: 34px; }
 #welcome-subtitle.s { margin-left: 40px; width: calc(100% - 70px); font-size: 34px; }
 #welcome-subtitle.xs { margin-left: 20px; width: calc(100% - 50px); font-size: 34px; }
+#welcome-subtitle.xxs { margin-left: 20px; width: calc(100% - 50px); font-size: 30px; }

@@ -30,7 +30,8 @@ export default class Header extends React.Component {
 
   render() {
     let JumpToLinks = <JumpButtons width={this.state.width} />;
-    if (this.state.width === 'xs') JumpToLinks = <JumpMenu width={this.state.width} />;
+    if (this.state.width === 'xs' || this.state.width === 'xxs') 
+      JumpToLinks = <JumpMenu width={this.state.width} />;
 
     return (
       <div className="header-box" style={this.state.hidden ? { top: '-50px' } : undefined}>
