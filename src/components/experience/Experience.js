@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import picture from './iceland2.JPG';
 import './Experience.css';
 
 export default class Experience extends React.Component {
@@ -19,7 +20,9 @@ export default class Experience extends React.Component {
   render() {
     return (
       <div className={"experience-box " + this.state.width} id="experience">
-        <div className={"experience-background " + this.state.width} />
+        <div className={"experience-imgWraper " + this.state.width}>
+          <img className={"experience-background " + this.state.width} src={picture}/>
+        </div>
         <div className={"experience-backgroundMask " + this.state.width} />
         <div className={"experience-title " + this.state.width}>
             Experience
@@ -52,7 +55,7 @@ export default class Experience extends React.Component {
         </div>
         <div className={"experience-content " + this.state.width}>
           <div className={"experience-item " + this.state.width}>
-            <div className={"experience-header " + this.state.width}>
+            <div className={"experience-header no-ul " + this.state.width}>
               <a href="https://twitter.com/xmaswardata" target="blank">Twiter Bot</a>
             </div>
             <div className={"experience-discription " + this.state.width}>

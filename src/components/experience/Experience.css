@@ -4,15 +4,22 @@
 }
 .experience-box.l { height: 1000px; }
 .experience-box.xs { height: 1300px; }
+
+.experience-imgWraper {
+  position: absolute;
+  height: 1080px;
+  width: 100%;
+  overflow: hidden;
+}
+.experience-imgWraper.l { height: 1000px; }
+.experience-imgWraper.xs { height: 1300px; }
  
 .experience-background {
   position: absolute;
   width: 100%;
-  height: 1080px;
-  background-image: url(../../images/iceland2.JPG);
-  background-size: cover;
-  background-position: center 30%;
+  height: 100%;
   filter: blur(3px);
+  transform: scale(1.1) 
 }
 .experience-background.l { height: 1000px; }
 .experience-background.xs { height: 1300px; }
@@ -41,11 +48,17 @@
 .experience-content.xs { top: 20px; padding-bottom: 30px; }
 
 .experience-content a {
-  color: #f7f7f7;
-  text-decoration: none;
+  color: #a7cbea;
+  text-decoration: underline;
 }
 
-.experience-content a:hover { color: #dcdcdc; }
+.experience-content a:hover { color: #c0e2ff; }
+
+.experience-content u {
+  font-weight: bold;
+  text-decoration: none;
+  color: #a7cbea;
+}
 
 .experience-title {
   position: relative;
@@ -65,12 +78,17 @@
 
 .experience-header {
   width: max-content;
+  display: inline-block;
   font-size: 28px;
   border-bottom: solid #f7f7f7 
 }
 .experience-header.m { font-size: 23px; }
 .experience-header.s { font-size: 21px; }
 .experience-header.xs { font-size: 20px; }
+
+.no-ul {
+  border-bottom: none !important;
+}
 
 .experience-discription {
   padding-top: 10px;

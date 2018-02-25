@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import picture from './iceland1.JPG';
 import './About.css';
 
 export default class About extends React.Component {
@@ -19,7 +20,9 @@ export default class About extends React.Component {
   render() {
     return (
       <div className={"about-box " + this.state.width} id="about">
-        <div className={"about-background " + this.state.width} />
+        <div className={"about-imgWraper " + this.state.width}>
+          <img className={"about-background " + this.state.width} src={picture}/>
+        </div>
         <div className={"about-backgroundMask " + this.state.width} />
         <div className={"about-content " + this.state.width}>
           <div className="about-title">About</div>

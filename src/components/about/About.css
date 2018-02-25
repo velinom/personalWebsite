@@ -1,18 +1,23 @@
 .about-box {
-  overflow: hidden;
   width: 100%;
   height: 520px;
 }
 .about-box.xs { height: 715px; }
 
+.about-imgWraper {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 520px;
+}
+.about-imgWraper.xs { height: 715px; } 
+
 .about-background {
   position: absolute;
   width: 100%;
   height: 520px;
-  background-image: url(../../images/iceland1.JPG);
-  background-size: cover;
-  background-position: center 30%;
   filter: blur(3px);
+  transform: scale(1.1);
 }
 .about-background.xs { height: 715px; }
 

@@ -21,8 +21,8 @@ export default class JumpMenu extends React.Component {
   }
 
   onMenuButtonClick(section) {
-    console.log('called');
-    console.log(document.getElementById(section));
+    window.scrollTo(0, document.getElementById(section).offsetTop); 
+    this.setState({menuOpen: false});
   }
 
   render() {
@@ -30,10 +30,18 @@ export default class JumpMenu extends React.Component {
       <div className="header-jumpButtonMenu">
         <i className="material-icons menu" onClick={this.onMenuClick}>menu</i>
         <div className={"jumpMenu-dropDownMenu " + (this.state.menuOpen ? "open" : "") }>
-          <div className="jumpMenu-menuButton" onClick={() => this.onMenuButtonClick("about")}>ABOUT</div>
-          <div className="jumpMenu-menuButton">SKILLS</div>
-          <div className="jumpMenu-menuButton">EXPERIENCE</div>
-          <div className="jumpMenu-menuButton">CONTACT</div>
+          <div className="jumpMenu-menuButton" onClick={() => this.onMenuButtonClick("about")}>
+            ABOUT
+          </div>
+          <div className="jumpMenu-menuButton" onClick={() => this.onMenuButtonClick("skills")}>
+            SKILLS
+          </div>
+          <div className="jumpMenu-menuButton" onClick={() => this.onMenuButtonClick("experience")}>
+            EXPERIENCE
+          </div>
+          <div className="jumpMenu-menuButton" onClick={() => this.onMenuButtonClick("contact")}>
+            CONTACT
+          </div>
         </div>
       </div>
     );
