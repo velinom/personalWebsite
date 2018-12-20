@@ -7,3 +7,6 @@
 /build
 
 /build
+
+## Ignore compressed version of the repo
+personalWebsite.zip
