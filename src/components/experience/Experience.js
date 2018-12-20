@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import picture from './iceland2.JPG';
 import './Experience.css';
 
