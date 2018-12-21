@@ -25,17 +25,16 @@ export default class Skills extends React.Component {
             <p>Java</p>
             <p>Python</p>
             <p>C#</p>
-            <p>C</p>
             <p>SQL</p>
             <p>MATLAB</p>
           </div>
           <div id="skills-languages" className={"skills-list " + this.state.width}>
             <div className={"skills-header " + this.state.width}>Software</div>
             <p>Git / GitHub</p>
+            <p>Android Studio</p>
             <p>Oracle Database</p>
             <p>Arduino</p>
             <p>Gradle</p>
-            <p>Microsoft Excel</p>
           </div>
           <div id="skills-webDev" className={"skills-list " + this.state.width}>
             <div className={"skills-header " + this.state.width}>Web-Dev</div>
