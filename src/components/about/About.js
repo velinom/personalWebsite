@@ -26,19 +26,19 @@ export default class About extends React.Component {
         <div className={"about-content " + this.state.width}>
           <div className="about-title">About</div>
           <p className={"about-discription " + this.state.width}>
-            I am a fourth year student at Northeastern University, currently applying for my third Co-op
-          position. I have a combined major of Computer Science and Physics because I love to explore
-          the interactions between technology and the universe.
+            I am a fifth year student at Northeastern University, currently applying for full time jobs 
+            starting in May or June of 2019. I have a combined major of Computer Science and Physics
+            because I love to explore the interactions between technology and the universe.
           </p>
           <p className={"about-discription " + this.state.width}>
-            Thanks to Northeastern’s Co-op program, I have gained valuable, real-life experience as both a
-          laboratory technician at LiquiGlide and a software developer at Power Advocate. Having worked in
-          each of my fields of study in the past, I hope to combine my passions for my next position from
-          July to December 2018.
+            Thanks to Northeastern’s Co-op program, I have gained valuable, real-life experience as a
+            laboratory technician at LiquiGlide, a software developer at Power Advocate, and a developer at
+            MORSE CORP. Having worked in both of my fields of study while on Co-op, I hope to combine my
+            passion for both physics and computer science in my full time work.
           </p>
           <p className={"about-discription " + this.state.width}>
-            When I am not working hard in classes or at work, I enjoy hiking and camping in my home state of
-          New Hampshire and fawning over dogs.
+            When I am not working hard in classes or on the job, I enjoy hiking and camping in my home state of
+            New Hampshire and fawning over dogs.
           </p>
         </div>
       </div>
