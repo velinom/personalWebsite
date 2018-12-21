@@ -30,10 +30,10 @@ export default class Skills extends React.Component {
           </div>
           <div id="skills-languages" className={"skills-list " + this.state.width}>
             <div className={"skills-header " + this.state.width}>Software</div>
+            <p>AWS</p>
             <p>Git / GitHub</p>
             <p>Android Studio</p>
             <p>Oracle Database</p>
-            <p>Arduino</p>
             <p>Gradle</p>
           </div>
           <div id="skills-webDev" className={"skills-list " + this.state.width}>
