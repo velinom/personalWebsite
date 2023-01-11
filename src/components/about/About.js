@@ -25,18 +25,16 @@ export default class About extends React.Component {
         <div className={"about-backgroundMask " + this.state.width} />
         <div className={"about-content " + this.state.width}>
           <div className="about-title">About</div>
-          <p className={"about-discription " + this.state.width}>
-            I am a fifth year student at Northeastern University, currently applying for full time jobs 
-            starting in May or June of 2019. I have a combined major of Computer Science and Physics
-            because I love to explore the interactions between technology and the universe.
+          <p className={"about-description " + this.state.width}>
+            I am currently looking for... 
           </p>
-          <p className={"about-discription " + this.state.width}>
-            Thanks to Northeastern’s Co-op program, I have gained valuable, real-life experience as a
+          <p className={"about-description " + this.state.width}>
+            Thanks to Northeastern's Co-op program, I have gained valuable, real-life experience as a
             laboratory technician at LiquiGlide, a software developer at Power Advocate, and a developer at
             MORSE CORP. Having worked in both of my fields of study while on Co-op, I hope to combine my
             passion for both physics and computer science in my full time work.
           </p>
-          <p className={"about-discription " + this.state.width}>
+          <p className={"about-description " + this.state.width}>
             When I am not working hard in classes or on the job, I enjoy hiking and camping in my home state of
             New Hampshire and fawning over dogs.
           </p>
