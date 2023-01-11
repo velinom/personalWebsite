@@ -3,9 +3,10 @@
 # dependencies
 /node_modules
 
-# production
-/build
+# VS code metadata
+/.vs
 
+# production
 /build
 
 ## Ignore compressed version of the repo
