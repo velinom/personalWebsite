@@ -15,6 +15,12 @@ export default class Experience extends React.Component {
     if (nextProps.width !== this.props.width)
       nextState.width = nextProps.width
   }
+  /*
+   
+
+     power advocate section: i feel like you can use a better word than "work with", maybe use? code? incorporate into their programs/stories
+  
+  */
 
   render() {
     return (
@@ -33,8 +39,8 @@ export default class Experience extends React.Component {
             </div>
             <div className={"experience-discription " + this.state.width}>
               My prior company PowerAdvocate was merged with Wood Mackenzie in early 2022 and I was selected
-              to lead an integrated team of former PowerAdvocate and Wood Mackenzie employees. I worked head
-              with the team to adapt to a new environment and way of working. Thankfully within a few weeks
+              to lead an integrated team of former PowerAdvocate and Wood Mackenzie employees. I worked hard
+              with the team to adapt to a new environment and way of working. Within a few weeks
               myself and the rest of the team were completing stories and making contributions throughout
               the new code base.  
             </div>
@@ -48,7 +54,10 @@ export default class Experience extends React.Component {
               I completed was to create a new <u>node.js</u> microservice that allowed the creation of different
               products and the customization of those products by users or company reps. As part of this project
               I also re-created the old <u>EXT.js</u> header for the website in <u>React</u>, modernizing the 
-              code and making it easier for future developers to work with. A second major project I am proud 
+              code and making it easier for future developers to use. 
+              <br/>
+              <br/>
+              A second major project I am proud 
               of is working to create a system of cached data pipelines in the cloud. This system used lots
               of AWS services including <u>Step Functions</u> to track what needed to be done for each pipeline,
               and <u>Lambdas</u> to make calls to our internal microservices. Once completed this project saved 
