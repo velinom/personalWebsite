@@ -5,14 +5,14 @@
 .about-box.xs { height: 760px; }
 .about-box.xxs { height: 825px; }
 
-.about-imgWraper {
+.about-imgWrapper {
   position: absolute;
   overflow: hidden;
   width: 100%;
   height: 530px;
 }
-.about-imgWraper.xs { height: 760px; }
-.about-imgWraper.xxs { height: 825px; }
+.about-imgWrapper.xs { height: 760px; }
+.about-imgWrapper.xxs { height: 825px; }
 
 .about-background {
   position: absolute;

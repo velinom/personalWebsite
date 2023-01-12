@@ -6,6 +6,7 @@ export default class Pictures extends React.Component {
     super(props);
 
     this.quotes = [
+      { quote: 'Hope doesn’t come from words. Hope only comes from actions', by: 'Greta Thunberg' },
       { quote: 'We have a single mission: to protect and hand on the planet to the next generation', by: 'Francois Hollande' },
       { quote: 'The path toward sustainable energy sources will be long... America cannot resist this transition, we must lead it', by: 'Barack Obama'},
       { quote: 'Climate change is a terrible problem, and it absolutely needs to be solved', by: 'Bill Gates' },
@@ -23,7 +24,7 @@ export default class Pictures extends React.Component {
   componentDidMount() {
     setInterval(() => {
       this.updateIndex();
-    }, 5000);
+    }, 6000);
   }
   
   componentWillUpdate(nextProps, nextState) {

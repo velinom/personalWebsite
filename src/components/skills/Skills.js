@@ -22,27 +22,26 @@ export default class Skills extends React.Component {
         <div className={"skills-content " + this.state.width}>
           <div id="skills-languages" className={"skills-list " + this.state.width}>
             <div className={"skills-header " + this.state.width}>Languages</div>
+            <p>JavaScript</p>
             <p>Java</p>
+            <p>SQL</p>
             <p>Python</p>
             <p>C#</p>
-            <p>SQL</p>
-            <p>MATLAB</p>
           </div>
           <div id="skills-languages" className={"skills-list " + this.state.width}>
-            <div className={"skills-header " + this.state.width}>Software</div>
-            <p>AWS</p>
-            <p>Git / GitHub</p>
-            <p>Android Studio</p>
-            <p>Oracle Database</p>
-            <p>Gradle</p>
+            <div className={"skills-header " + this.state.width}>Software / Frameworks</div>
+            <p>Git / Gitlab</p>
+            <p>React</p>
+            <p>Node.js</p>
+            <p>MemSQL</p>
+            <p>elasticsearch</p>
           </div>
           <div id="skills-webDev" className={"skills-list " + this.state.width}>
-            <div className={"skills-header " + this.state.width}>Web-Dev</div>
-            <p>React.js</p>
-            <p>Node.js</p>
-            <p>JavaScript (ES6)</p>
-            <p>HTML</p>
-            <p>CSS</p>
+            <div className={"skills-header " + this.state.width}>AWS</div>
+            <p>Step Functions</p>
+            <p>Lambdas</p>
+            <p>DynamoDB</p>
+            <p>EventBridge</p>
           </div>
         </div>
       </div>

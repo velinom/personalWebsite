@@ -23,7 +23,7 @@ export default class Welcome extends React.Component {
         <div className={"welcome-text " + this.state.width} id="welcome-greeting">
           {Greeting}
           <div className={"welcome-text " + this.state.width} id="welcome-subtitle">
-            I'm passionate about using technology to help the environment
+            I'm passionate about using technology to help the environment and local communities
           </div>
         </div>
     </div>

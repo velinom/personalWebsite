@@ -19,24 +19,26 @@ export default class About extends React.Component {
   render() {
     return (
       <div className={"about-box " + this.state.width} id="about">
-        <div className={"about-imgWraper " + this.state.width}>
+        <div className={"about-imgWrapper " + this.state.width}>
           <img className={"about-background " + this.state.width} src={picture}/>
         </div>
         <div className={"about-backgroundMask " + this.state.width} />
         <div className={"about-content " + this.state.width}>
           <div className="about-title">About</div>
           <p className={"about-description " + this.state.width}>
-            I am currently looking for... 
+            For the past three years I have gained invaluable experience as a full stack web developer. I 
+            am currently looking for new work that will allow me to leave a mark on the world for the better. 
+            I believe that software and technology can be used to shape a brighter future, and I hope to join
+            a team of like minded people with strong morals.
           </p>
           <p className={"about-description " + this.state.width}>
-            Thanks to Northeastern's Co-op program, I have gained valuable, real-life experience as a
-            laboratory technician at LiquiGlide, a software developer at Power Advocate, and a developer at
-            MORSE CORP. Having worked in both of my fields of study while on Co-op, I hope to combine my
-            passion for both physics and computer science in my full time work.
+            Before my time working as a professional web developer I attended Northeastern University where
+            I received a BS in computer science and physics. I loved my time at the university and the variety
+            of classes I was able to take, including everything from game AI to thermodynamics. I also fell in
+            love with Boston during college, and I have lived close to the city ever since. 
           </p>
           <p className={"about-description " + this.state.width}>
-            When I am not working hard in classes or on the job, I enjoy hiking and camping in my home state of
-            New Hampshire and fawning over dogs.
+            During my free time I enjoy rock climbing, cooking, and playing chess. 
           </p>
         </div>
       </div>

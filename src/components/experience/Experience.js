@@ -29,12 +29,14 @@ export default class Experience extends React.Component {
         <div className={"experience-content " + this.state.width}>
           <div className={"experience-item " + this.state.width}>
             <div className={"experience-header " + this.state.width}>
-              MORSE CORP
+              Wood Mackenzie
             </div>
             <div className={"experience-discription " + this.state.width}>
-              Designed, implemented, and tested the back-end <u>calculation</u> engine for an <u>Android</u>
-              application that planned airdrop and manned jump missions. The application also provided
-              real-time data to the jumpers during their flight.
+              My prior company PowerAdvocate was merged with Wood Mackenzie in early 2022 and I was selected
+              to lead an integrated team of former PowerAdvocate and Wood Mackenzie employees. I worked head
+              with the team to adapt to a new environment and way of working. Thankfully within a few weeks
+              myself and the rest of the team were completing stories and making contributions throughout
+              the new code base.  
             </div>
           </div>
           <div className={"experience-item " + this.state.width}>
@@ -42,10 +44,15 @@ export default class Experience extends React.Component {
               Power Advocate
             </div>
             <div className={"experience-discription " + this.state.width}>
-              Developed a new version of an enterprise web application from the ground up. I worked on an
-              efficient 4 person <u>Scrum</u> team to build a new database and backend structure 
-              using <u>Oracle Database</u>, <u>SQL</u>, and <u>Java</u>. Created a sleak front-end for the 
-              application using <u>React.js</u>, <u>Node.js</u>, and <u>JavaScript</u>.
+              I worked for several years as a full stack web developer at PowerAdvocate. One major project 
+              I completed was to create a new <u>node.js</u> microservice that allowed the creation of different
+              products and the customization of those products by users or company reps. As part of this project
+              I also re-created the old <u>EXT.js</u> header for the website in <u>React</u>, modernizing the 
+              code and making it easier for future developers to work with. A second major project I am proud 
+              of is working to create a system of cached data pipelines in the cloud. This system used lots
+              of AWS services including <u>Step Functions</u> to track what needed to be done for each pipeline,
+              and <u>Lambdas</u> to make calls to our internal microservices. Once completed this project saved 
+              Dev Ops employees from doing countless manual work that was now automated. 
             </div>
           </div>
         </div>
@@ -60,17 +67,8 @@ export default class Experience extends React.Component {
             <div className={"experience-discription " + this.state.width}>
               Developed a <a href="https://twitter.com/xmaswardata" target="blank">Twitter bot</a> during the 
               holiday season that analyzed tweets to determine if more people were tweeting about the 
-              holidays or about Christmas. Used the <u>Twitter API</u>, <u>Node.js</u>, <u>Heroku</u>, 
-              and <u>JavaScript</u> to colect data, analyze it, and report out every 12 hours. 
-            </div>
-          </div>
-          <div className={"experience-item " + this.state.width}>
-            <div className={"experience-header " + this.state.width}>
-              Project Karman 
-            </div>
-            <div className={"experience-discription " + this.state.width}>
-              Work on a small <u>avionics</u> team with the goal of launching a rocket to the Karman Line (100 km). 
-              Write embedded dirivers in <u>C</u> and perfrom QA testing on integrated circuit boards. 
+              holidays or about Christmas. I Used the <u>Twitter API</u>, <u>Node.js</u>, <u>Heroku</u>, 
+              and <u>JavaScript</u> to collect data, analyze it, and report out every 12 hours. 
             </div>
           </div>
         </div>
