@@ -1,6 +1,6 @@
 .picture-box {
   width: 100%;
-  background: linear-gradient(#bdcbd6, #778c97);
+  background-color: #596870;
 }
 .picture-box.xl { height: 800px }
 .picture-box.l { height: 600px; }

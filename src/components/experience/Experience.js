@@ -15,12 +15,6 @@ export default class Experience extends React.Component {
     if (nextProps.width !== this.props.width)
       nextState.width = nextProps.width
   }
-  /*
-   
-
-     power advocate section: i feel like you can use a better word than "work with", maybe use? code? incorporate into their programs/stories
-  
-  */
 
   render() {
     return (

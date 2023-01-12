@@ -19,10 +19,10 @@ export default class About extends React.Component {
   render() {
     return (
       <div className={"about-box " + this.state.width} id="about">
-        <div className={"about-imgWrapper " + this.state.width}>
+        {/* <div className={"about-imgWrapper " + this.state.width}>
           <img className={"about-background " + this.state.width} src={picture}/>
         </div>
-        <div className={"about-backgroundMask " + this.state.width} />
+        <div className={"about-backgroundMask " + this.state.width} /> */}
         <div className={"about-content " + this.state.width}>
           <div className="about-title">About</div>
           <p className={"about-description " + this.state.width}>

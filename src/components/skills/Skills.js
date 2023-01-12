@@ -29,7 +29,7 @@ export default class Skills extends React.Component {
             <p>C#</p>
           </div>
           <div id="skills-languages" className={"skills-list " + this.state.width}>
-            <div className={"skills-header " + this.state.width}>Software / Frameworks</div>
+            <div className={"skills-header " + this.state.width}>Software</div>
             <p>Git / Gitlab</p>
             <p>React</p>
             <p>Node.js</p>
