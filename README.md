@@ -1,1 +1,1 @@
-This is the code for my personal website which can be found at www.markvelino.com
+old personal website no longer in use
